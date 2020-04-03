@@ -1,0 +1,13 @@
+# 生成斐波那契数列的前20个数
+
+the_first = 1
+print(the_first)
+the_second = 2
+print(the_second)
+n = 1
+while n <= 9:
+    print(the_first + the_second)
+    the_first = the_first + the_second
+    the_second = the_first  + the_second
+    print( the_second)
+    n = n + 1
